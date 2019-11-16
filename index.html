@@ -5,7 +5,7 @@
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>otaku</title>
+    <title>Otaku</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="jquery.min.js"></script>
@@ -18,7 +18,7 @@
 <body onclick = "VXNlcmNvcjogSW()" style="direction: ltr">
 
        
-    <nav class="navbar navbar-expand-sm bg-otaku navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-otaku navbar-dark sticky-top">
         <a class="navbar-brand" href="#"><img src="logo.jpg" alt="logo" style="width:40px;"></a>
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -37,11 +37,17 @@
                     <a class="nav-link" href="#synopsis">synopsis</a>
 
                 </li>
-				<!div class="dropdown">
-				 <li class="nav-item">
+				
+				 <li class="nav-item dropdown" >
 				 
-                    <a class="nav-link" href="#character">character info</a>
-					  
+                    <a class="nav-link dropdown-toggle" href="#"id="navbardrop" data-toggle="dropdown" >character info</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#Midoriya">Midoriya Izuku</a>
+						<a class="dropdown-item" href="#Bakugo">Katsuki Bakugo</a>
+						<a class="dropdown-item" href="#Uraraka">Uraraka Ochako</a>
+						<a class="dropdown-item" href="#Iida">Tenya Iida</a>
+						<a class="dropdown-item" href="#Todoroki">Todoroki Shoto</a> 
+						</div>
             
                 </li>
             </ul>
@@ -91,22 +97,29 @@
                     </a>
                   </div>
 				  </div>
-<div class="container">
+				  <br>
+		 <br>
+		 <br>
+	<div class="container">
        
 		<div ID="synopsis">
-		<h2>Genere<h2>
-		<p style="font-size:18px;"> Action, Comedy, School, Shounen, Super Power</p>
-		
-		<h2>Synopsis</h2>
-        <p> A superhero-loving boy without any powers is determined to enroll 
-		in a prestigious hero academy and learn what it really means to be a hero. 
-		In a world populated with superhumans, the superhero-loving Izuku Midoriya is without power</p>
+			<h2>Genere<h2>
+			<p style="font-size:18px;"> Action, Comedy, School, Shounen, Super Power</p>
+			
+			<h2>Synopsis</h2>
+			<p> A superhero-loving boy without any powers is determined to enroll 
+			in a prestigious hero academy and learn what it really means to be a hero. 
+			In a world populated with superhumans, the superhero-loving Izuku Midoriya is without power</p>
 		</div>
 		 <div id="info">
-		<h2>Information<h2>
-		<p style="font-size:18px;">Author: Kohei Horikoshi<br>
-Publisher: Viz Media</p>
+			 <br>
+			 <br>
+			 <br>
+			<h2>Information<h2>
+			<p style="font-size:18px;">Author: Kohei Horikoshi<br>
+			Publisher: Viz Media</p>
 		</div>
+		
         <div id="accordion">
             <div class="card">
                 <div class="card-header">
@@ -185,12 +198,16 @@ Publisher: Viz Media</p>
 <br>
 <br>
 <br>
-<br>
+
 	 
-<div class="container">
+		<div class="container"id="Midoriya">
  
 		</div>
+		
       <div class="container">
+	  <br>
+<br>
+
 	  <div id="character">
 	          
 			  <h2>Character Information</h2>
@@ -200,7 +217,7 @@ Publisher: Viz Media</p>
           
         </div>
 
-        <h2>Midoriya Izuku</h2>
+        <h2 >Midoriya Izuku</h2>
         <p>Midoriya Izuku is one of the main protagonists of My Hero Academia. He is a student in UA's hero department and
 		a member of class 1A. He is currently training to become a pro hero.</p>
         <div class="card" style="width:400px">
@@ -208,23 +225,31 @@ Publisher: Viz Media</p>
             <div class="card-body">
                 <h4 class="card-title">Deku </h4>
                 <p class="card-text"><strong>Name:</strong> Izuku Midoriya 
-<br><strong>Gender:</strong> Male
-<br><strong>Classification:</strong> Human, Hero
-<br><strong>Age:</strong> 15
-<br><strong>Powers and Abilities:</strong> Super strength, speed, durability, endurance, agility, great battle smarts<br>
-<strong> Quirk:</strong> One For All, One For All 
-<br><strong>Weaknesses:</strong> Because of Izuku's inexperience in regulating his power
-<br><strong>Destructive Capacity:</strong> Multi city block level+,  I City level 
-<br><strong>Range:</strong> Human melee range,  at least a dozen meters with finger flicks
-<br><strong>Speed:</strong> Hypersonic 
-<br><strong>Durability:</strong> Multi city block level+ I At least multi city block level+
-<br><strong>Stamina:</strong> Superhuman 
-<br><strong>Standard Equipment: </strong>His Costume Gamma, Iron Soles, Air Force Gloves.<br> for more information</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
+					<br><strong>Gender:</strong> Male
+					<br><strong>Classification:</strong> Human, Hero
+					<br><strong>Age:</strong> 15
+					<br><strong>Powers and Abilities:</strong> Super strength, speed, durability, endurance, agility, great battle smarts<br>
+					<strong> Quirk:</strong> One For All, One For All 
+					<br><strong>Weaknesses:</strong> Because of Izuku's inexperience in regulating his power
+					<br><strong>Destructive Capacity:</strong> Multi city block level+,  I City level 
+					<br><strong>Range:</strong> Human melee range,  at least a dozen meters with finger flicks
+					<br><strong>Speed:</strong> Hypersonic 
+					<br><strong>Durability:</strong> Multi city block level+ I At least multi city block level+
+					<br><strong>Stamina:</strong> Superhuman 
+					<br><strong>Standard Equipment: </strong>His Costume Gamma, Iron Soles, Air Force Gloves.<br> for more information
+				</p>
+									<a href="#" class="btn btn-warning">See Profile</a>
             </div>
         </div>
         <br>
- <h2>Katsuki Bakugo</h2>
+		<br>
+		<div class="container"id="Bakugo">
+ 
+		</div>
+		<br>
+		<br>
+		<br>
+<h2 >Katsuki Bakugo</h2>
         <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
 		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
         <div class="card" style="width:400px">
@@ -232,20 +257,28 @@ Publisher: Viz Media</p>
             <div class="card-body">
                 <h4 class="card-title">Kacahn</h4>
                 <p class="card-text">Name: Katsuki Bakugou<br>
-<strong>Gender:</strong> Male<br>
-<strong>Classification:</strong> Human, Hero<br>
-<strong>Age:</strong> 16<br>
-<strong>Powers and Abilities:</strong> Super strength, speed, durability, 
-endurance, agility, great battle smarts<br>
-<strong>Quirk:</strong> Explosion<br>
-<strong>Weaknesses: </strong> repeated ignition cause to direct skin contact, causing pain to the user's arm and shoulder
-<br><strong>Destructive Capacity:</strong> Multi city block level+ 
-<strong>Range:</strong> Human melee range<br>
-<strong>Speed:</strong>  Hypersonic<br> For more information </p>
-  <a href="#" class="btn btn-warning">See Profile</a>
+					<strong>Gender:</strong> Male<br>
+					<strong>Classification:</strong> Human, Hero<br>
+					<strong>Age:</strong> 16<br>
+					<strong>Powers and Abilities:</strong> Super strength, speed, durability, 
+					endurance, agility, great battle smarts<br>
+					<strong>Quirk:</strong> Explosion<br>
+					<strong>Weaknesses: </strong> repeated ignition cause to direct skin contact, causing pain to the user's arm and shoulder
+					<br><strong>Destructive Capacity:</strong> Multi city block level+ 
+					<strong>Range:</strong> Human melee range<br>
+					<strong>Speed:</strong>  Hypersonic<br> For more information </p>
+					  <a href="#" class="btn btn-warning">See Profile</a>
             </div>
         </div>
-		 <h2>Uraraka Ochako</h2>
+		<br>
+		<br>
+		<div class="container"id="Uraraka">
+ 
+		</div>
+		<br>
+		<br>
+		<br>
+		 <h2 >Uraraka Ochako</h2>
         <p>Ochaco Uraraka is the first main heroine and one of the two main tritagonists in the manga/anime series, My Hero Academia.
 		She is a student at U.A.
 		High School training to become a Pro Hero. She is one of Izuku Midoriya's closest friends, and has a crush on him</p>
@@ -254,25 +287,33 @@ endurance, agility, great battle smarts<br>
             <div class="card-body">
                 <h4 class="card-title">Uravity</h4>
 		    <p class="card-text"><strong>Name:</strong> Ochako Uraraka<br>
-<strong>Gender:</strong> Female<br>
-<strong>Classification: </strong>Human, Hero<br>
-<strong>Age:</strong> 15<br>
-<strong>Powers and Abilities:</strong> Super strength, speed, durability,, great battle smarts<br>
-<strong>Quirk:</strong> Zero Gravity<br>
-<strong>Weaknesses:</strong> Her upper limit seems to be 3 tons, and continued strain will cause her to feel sick and woozy to the point of vomiting<br>
-<strong>Destructive Capacity:</strong> Large building level <br>
-<strong>Range:</strong> Average human melee range
-<strong>Speed:</strong> Faster than the eye can see, likely higher<br>
-<strong>Durability:</strong> Large building level, likely higher<br>
-<strong>Lifting Strength:</strong> Superhuman<br>
-<strong>Striking Strength:</strong> Class MJ+<br>
-<strong>Stamina:</strong> Superhuman<br>
-<strong>Standard Equipment:</strong> Her hero costume, hover boots<br>
-Intelligence: Skilled combatant <br>For more Information </p>
-                <a href="#" class="btn btn-warning">See Profile</a>
+				<strong>Gender:</strong> Female<br>
+				<strong>Classification: </strong>Human, Hero<br>
+				<strong>Age:</strong> 15<br>
+				<strong>Powers and Abilities:</strong> Super strength, speed, durability,, great battle smarts<br>
+				<strong>Quirk:</strong> Zero Gravity<br>
+				<strong>Weaknesses:</strong> Her upper limit seems to be 3 tons, and continued strain will cause her to feel sick and woozy to the point of vomiting<br>
+				<strong>Destructive Capacity:</strong> Large building level <br>
+				<strong>Range:</strong> Average human melee range
+				<strong>Speed:</strong> Faster than the eye can see, likely higher<br>
+				<strong>Durability:</strong> Large building level, likely higher<br>
+				<strong>Lifting Strength:</strong> Superhuman<br>
+				<strong>Striking Strength:</strong> Class MJ+<br>
+				<strong>Stamina:</strong> Superhuman<br>
+				<strong>Standard Equipment:</strong> Her hero costume, hover boots<br>
+				Intelligence: Skilled combatant <br>For more Information </p>
+								<a href="#" class="btn btn-warning">See Profile</a>
             </div>
         </div>
-		 <h2>Tenya Iida</h2>
+		<br>
+		<br>
+		<div class="container"id="Iida">
+ 
+		</div>
+		<br>
+		<br>
+		<br>
+		 <h2 >Tenya Iida</h2>
         <p> Tenya Iida is one of two main tritagonists in the manga/anime series, My Hero Academia.
 		He is a student at U.A. High School training to become a Pro Hero,
 		and the class president of Class 1-A.
@@ -284,25 +325,34 @@ Intelligence: Skilled combatant <br>For more Information </p>
 		    
                 <p class="card-text"><strong>Name:</strong> Tenya Iida<br>
 
-<strong>Gender:</strong> Male<br>
-<strong>Classification:</strong> Human, Hero<br>
-<strong>Age:</strong> 15<br>
-<strong>Powers and Abilities:</strong> Super strength, speed, great battle smarts<br>
-<strong>Quirk:</strong> Engine, Engine allows Tenya to use his legs as engines, giving him super speed<br>
-<strong>Weaknesses:</strong> Much like a real engine the Quirk requires that the exhaust pipes on the back of his legs remain clear of obstructions in order to function properly, as well as having a radiator in order to cool down after high-use
-<strong>Destructive Capacity:</strong> Multi city block level+ <br>
-<strong>Range:</strong> Average human melee range<br>
-<strong>Speed:</strong> Hypersonic <br>
-<strong>Durability:</strong> Multi city block level+<br>
-<strong>Lifting Strength:</strong> Superhuman<br>
-<strong>Striking Strength:</strong> Class GJ+<br>
-<strong>Stamina:</strong> Superhuman<br>
-<strong>Standard Equipment:</strong> His hero costume<br>
-<strong>Intelligence:</strong> Tenya has shown to be a great leader<br> For more informtion</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
+					<strong>Gender:</strong> Male<br>
+					<strong>Classification:</strong> Human, Hero<br>
+					<strong>Age:</strong> 15<br>
+					<strong>Powers and Abilities:</strong> Super strength, speed, great battle smarts<br>
+					<strong>Quirk:</strong> Engine, Engine allows Tenya to use his legs as engines, giving him super speed<br>
+					<strong>Weaknesses:</strong> Much like a real engine the Quirk requires that the exhaust pipes on the back of his legs remain clear of obstructions in order to function properly, as well as having a radiator in order to cool down after high-use
+					<strong>Destructive Capacity:</strong> Multi city block level+ <br>
+					<strong>Range:</strong> Average human melee range<br>
+					<strong>Speed:</strong> Hypersonic <br>
+					<strong>Durability:</strong> Multi city block level+<br>
+					<strong>Lifting Strength:</strong> Superhuman<br>
+					<strong>Striking Strength:</strong> Class GJ+<br>
+					<strong>Stamina:</strong> Superhuman<br>
+					<strong>Standard Equipment:</strong> His hero costume<br>
+					<strong>Intelligence:</strong> Tenya has shown to be a great leader<br>
+						For more informtion
+				</p>
+				<a href="#" class="btn btn-warning">See Profile</a>
             </div>
         </div>
-		 <h2>Todoroki Shoto</h2>
+		<br><br>
+		<div class="container"id="Todoroki">
+ 
+		</div>
+		<br>
+		<br>
+		<br>
+		 <h2 >Todoroki Shoto</h2>
         <p>Shoto Todoroki is one of the main protagonists and tetartagonist in the manga/anime series, My Hero Academia.
 		He is a student at U.A. High School training to become a Pro Hero.
 		He got into U.A. through official recommendations. He is also Midoriya's second best friend and rival.</p>
@@ -311,155 +361,27 @@ Intelligence: Skilled combatant <br>For more Information </p>
             <div class="card-body">
                 <h4 class="card-title"> Shouto</h4>
                 <p class="card-text">
-			<strong>Name:</strong>Shouto Todoroki<br>
+					<strong>Name:</strong>Shouto Todoroki<br>
 
-<strong>Gender:</strong> Male<br>
-<strong>Classification:</strong> Human, Hero<br>
-<strong>Age:</strong> 15<br>
-<strong>Powers and Abilities:</strong> Super strength, speed, great battle smarts<br>
-<strong>Quirk:</strong>  Half-Cold Half-Hot, Half-Cold Half-Hot<br>
-<strong>Weaknesses:</strong>need to maintain his own body temperature<br>
-<strong>Destructive Capacity:</strong> Multi city block level+ <br>
-<strong>Range:</strong> Human melee range, several dozen meters with his Quirk<br>
-<strong>Speed:</strong> Hypersonic <br>
-<strong>Durability:</strong> Multi city block level+<br>
-<strong>Lifting Strength:</strong>Class 1+<br>
-<strong>Striking Strength:</strong>Class MJ+ via powerscaling<br>
-<strong>Stamina:</strong> Superhuman<br>
-<strong>Standard Equipment:</strong> His hero costume<br>
-<strong>Intelligence:</strong> Skilled combatant<br> For more informtion
- </p>
+					<strong>Gender:</strong> Male<br>
+					<strong>Classification:</strong> Human, Hero<br>
+					<strong>Age:</strong> 15<br>
+					<strong>Powers and Abilities:</strong> Super strength, speed, great battle smarts<br>
+					<strong>Quirk:</strong>  Half-Cold Half-Hot, Half-Cold Half-Hot<br>
+					<strong>Weaknesses:</strong>need to maintain his own body temperature<br>
+					<strong>Destructive Capacity:</strong> Multi city block level+ <br>
+					<strong>Range:</strong> Human melee range, several dozen meters with his Quirk<br>
+					<strong>Speed:</strong> Hypersonic <br>
+					<strong>Durability:</strong> Multi city block level+<br>
+					<strong>Lifting Strength:</strong>Class 1+<br>
+					<strong>Striking Strength:</strong>Class MJ+ via powerscaling<br>
+					<strong>Stamina:</strong> Superhuman<br>
+					<strong>Standard Equipment:</strong> His hero costume<br>
+					<strong>Intelligence:</strong> Skilled combatant<br> For more informtion
+				</p>
                 <a href="#" class="btn btn-warning">See Profile</a>
             </div>
         </div>
-        <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="c5.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="c6.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="c7.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="c8.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="c9.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="c10.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="c11.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="c12.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="c13.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="c14.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <h2>Katsuki Bakugo</h2>
-        <p>Katsuki Bakugo (known as Kacchan by his childhood friends,) is one of two main protagonists of My Hero Academia. He is a student in UA's
-		hero department and a member of class 1A. He is currently training to become a pro hero.</p>
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="sense2.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
-        </div>
-		 <div class="card" style="width:400px">
-            <img class="card-img-top" src="sense1.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4 class="card-title">Kacahn</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-warning">See Profile</a>
-            </div>
         </div>
     </div>
 
